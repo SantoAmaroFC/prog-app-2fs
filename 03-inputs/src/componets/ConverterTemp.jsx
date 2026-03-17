@@ -1,22 +1,20 @@
 import {useState} from 'react'
 
-function ConverterTemp() {
-    const[, setCelsius] = useState = ('')
+function ConverterTemp(e) {
+    const[celsius, setCelsius] = useState = ('')
     const[fahrenheit, setFahrenheit] = useState = ('')
-    const[kelvin, setKelvin] = useState = ('')
+    
     
     function celsius(){
-        
-
+        setCelsius(e.target.value)
+        setFahrenheit(e.target.value)
     }
     function fahrenheit (){
-
-
-    }
-    function kelvin (){
-
+        setFahrenheit(e.target.value)
+        setCelsius(e.target.value)
 
     }
+    
 
 
   return (
