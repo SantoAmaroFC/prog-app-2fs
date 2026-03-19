@@ -1,23 +1,38 @@
 import {useState} from 'react'
 
 function NumerosLinhas() {
-    const[numero, setNumero] = useState(0)
+    const[numero, setNumero] = useState()
+    const[inputN, setInputN] = useState('')
+    function gerarPum(){
+    let linhas = ''
+    let pums = 0
+    let i=1
 
-    let linhas = []
-
-        for (let i = 1; i <= numero; i++) {
-           linhas.push (<p key={i}>bom dia</p>)
-            
+        while(pums<=inputN) {
+          if (i%4 != 0) {
+            linhas += i + '' 
+          }else{
+            linhas += 'PUM' 
+            pums++
+            console.log(pums)
+          }
+          i++
+        } 
+          setNumero(linhas)
         }
 
   return (
     <div>
         <h1>Numero de linhas</h1>
         <input type='Number'
-        onChange={(e) => setNumero(Number(e.target.value))}
-        
+        onChange={(e) => setInputN(Number(e.target.value))}
+
         />
-        {linhas}
+
+        
+        
+      <button onClick={gerarPum}>Pum</button>
+        {numero}
     </div>
   )
 }
