@@ -1,0 +1,16 @@
+.cont-app{
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont-header{
+  background-color: aquamarine;
+  height: 100px;
+  
+}
+.cont-main{
+  background-color: blue ; 
+  flex: 1;
+}
