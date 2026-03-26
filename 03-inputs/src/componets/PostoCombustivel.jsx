@@ -16,8 +16,12 @@ function PostoCombustivel() {
             setmensagem("Diesel")
             break
             case 4:
-            setmensagem("Fim")
+            setmensagem("Muito Obrigado")
             break
+            default:
+              setmensagem("Muito Obrigado")
+              break
+            
 
         }
     }
@@ -25,16 +29,17 @@ function PostoCombustivel() {
   return (
     <div>
 
-            <p>{mensagem}</p>
+        <h1>Posto</h1>
 
         <input type='text' value={gasolina}
        onChange={(e) => {
-                    const valor = Number(e.target.value)
-                   setGasolina(valor)
-                    opcao(valor)
-       }} 
+         const valor = Number(e.target.value)
+         setGasolina(valor)
+         opcao(valor)
+        }} 
         />
 
+        <p>{mensagem}</p>
 
     </div>
   )
