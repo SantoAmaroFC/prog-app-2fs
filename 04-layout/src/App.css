@@ -8,9 +8,24 @@
 .cont-header{
   background-color: aquamarine;
   height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   
 }
 .cont-main{
   background-color: blue ; 
   flex: 1;
+  display: flex;
+}
+.botoes-nav{
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: blueviolet;
+}
+
+.botoes-nav:hover{
+  background-color: aqua;
 }
