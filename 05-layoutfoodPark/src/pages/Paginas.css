@@ -1,0 +1,17 @@
+.cont-home{
+    background-image: url(https://img.notionusercontent.com/s3/prod-files-secure%2Ffc91fd6e-8ab9-4702-9997-d40bff18f361%2Feb053480-a477-4522-9bd6-b9a709c100de%2Ffood-park.png/size/w=930?exp=1775178609&sig=54DTQ4XwzZqlSE91jjdRkPfP5HETvyp2XWBzZAKPAkE&id=303d393f-f68e-8071-841c-f4dd81d534ce&table=block);
+    background-position: center;
+    flex: 1;
+}
+.cont-produtos{
+    background-color: brown;
+    flex: 1;
+}
+.cont-contato{
+    background-color: chartreuse;
+    flex: 1;
+}
+.cont-pizza{
+    background-color: rgb(255, 0, 225);
+    flex: 1;
+}
