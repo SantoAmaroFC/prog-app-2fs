@@ -1,26 +1,91 @@
 .cont-home{
-    background-image: url('./public/propaganda.png');
-    background-position: center;
-    text-align: center;
-    display: flex;
-    justify-content: center; 
-    align-items: center;     
+    background-color: white;
+    background-size: cover;
     height: 100vh;    
     flex: 1;
+    
+    
+    display: flex;
+    
+    justify-content: space-around; 
+    
+       
+    
+
+    
+   
+    
 }
 .cont-produto{
     background-image: url('./public/Pastel.png');
     background-position: center;
+    background-size: cover;
     flex: 1;
 }
 .cont-contato{
     background-image: url('./public/Gaucho.png');
     background-position: center;
+    background-size: cover;
     object-fit: cover;
     flex: 1;
 }
 .cont-pizza{
-    background-image: url('./public/Pizza.png');
+    background-color: white;
+    background-size: cover;
     background-position:  center;
     flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+.titulo{
+    padding: 10px;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+    
+    
+}
+.glass-effect {
+  /* Transparência no fundo */
+  background: rgba(255, 255, 255, 0.0);
+  /* Desfoque do fundo (backdrop-filter) */
+  -webkit-backdrop-filter: blur(10px); /* Compatibilidade Safari */
+  backdrop-filter: blur(10px);
+  /* Borda sutil */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* Borda arredondada e sombra (opcional) */
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+    
+    
+    
+    
+
+.esquerda{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 200px
+    
+    
+    
+
+}
+.direita{
+    
+    
+    
+}
+.paragrafo_1{
+    display: flex;
+    font-size: 20px;
+}
+.menu{
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+}
+.frase{
+    font-size: 20px;
 }

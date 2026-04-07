@@ -12,13 +12,13 @@
   flex-direction: row;
   justify-content: center;
   align-items:center;
-  gap: 20px;
+  
   
   
   
 }
 .cont-main{
-  background-color: blue ; 
+   
   flex: 1;
   display: flex;
 }
@@ -27,7 +27,7 @@
   padding: 15px 15px;
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
-  margin: 0 100px;
+  margin: 0 200px;
   
   
   
@@ -38,3 +38,6 @@
   background-color: rgb(193, 199, 199);
   
 }
+
+
+
