@@ -1,0 +1,10 @@
+.cont-card-cavalo{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgb(0, 0, 0, 0.356);
+}
+.imagemCavalo{
+    font-size: 40px;
+    height: 50px;
+}
