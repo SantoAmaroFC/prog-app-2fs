@@ -17,7 +17,7 @@ function App() {
       raca: "Mangalarga Marchador",
       idade: 5,
       pelagem: "Tordilho",
-      imagem: '🐎'
+      imagem: <img src="./Mangalarga Marchador.svg"></img>
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ function App() {
       raca: "Quarto de Milha",
       idade: 4,
       pelagem: "Alazã",
-      imagem: '🐎'
+      imagem: <img src="./Quarto de Milha.svg"></img>
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ function App() {
       raca: "Mustang",
       idade: 7,
       pelagem: "Baio",
-      imagem: '🐎'
+      imagem: <img src="./public/Mustang.svg"></img>
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ function App() {
       raca: "Puro Sangue Inglês",
       idade: 6,
       pelagem: "Castanho",
-      imagem: '🐎'
+      imagem: <img src="./public/Puro Sangue Inglês.svg"></img>
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ function App() {
       raca: "Appaloosa",
       idade: 3,
       pelagem: "Sardenta",
-      imagem: '🐎'
+      imagem: <img src="./public/Appaloosa.svg"></img>
     },
     {
       id: 6,
@@ -57,7 +57,7 @@ function App() {
       raca: "Crioulo",
       idade: 10,
       pelagem: "Zaino",
-      imagem: '🐎'
+      imagem: <img src="./public/Crioulo.svg"></img>
     },
     {
       id: 7,
@@ -65,7 +65,7 @@ function App() {
       raca: "Lusitano",
       idade: 8,
       pelagem: "Branco",
-      imagem: '🐎'
+      imagem: <img src="./public/Lusitano.svg"></img>
     },
     {
       id: 8,
@@ -73,7 +73,7 @@ function App() {
       raca: "Árabe",
       idade: 5,
       pelagem: "Preto",
-      imagem: '🐎'
+      imagem: <img src="./public/emojione--horse-face.svg"></img>
     },
     {
       id: 9,
@@ -81,7 +81,7 @@ function App() {
       raca: "Andaluz",
       idade: 9,
       pelagem: "Cinza",
-      imagem: '🐎'
+      imagem: <img src="./public/Andaluz.svg"></img>
     },
     {
       id: 10,
@@ -89,7 +89,7 @@ function App() {
       raca: "Campolina",
       idade: 4,
       pelagem: "Pampa",
-      imagem: '🐎'
+      imagem: <img src="./public/Campolina.svg"></img>
     }
   ])
   
