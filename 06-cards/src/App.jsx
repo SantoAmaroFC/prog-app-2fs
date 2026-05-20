@@ -15,8 +15,14 @@ function App() {
   const[inputPreco, setImputPreco] = useState('')
 
   function cadastrar(){
-    let produtoNovo =  {id: Date.now(), nome: 'Pogobal', preco: 10, imagem: '🪐'}
-    setProdutos([...produtos , produtoNovo])
+    let p = Number(inputPreco)
+    let produtoNovo =  {id: Date.now(),
+       nome: inputNome,
+       preco: p,
+        imagem: inputImagem
+      
+      }
+    setProdutos([produtoNovo , ...produtos])
   }
   
   return (

@@ -33,7 +33,7 @@ function App() {
       raca: "Mustang",
       idade: 7,
       pelagem: "Baio",
-      imagem: <img src="./public/Mustang.svg"></img>
+      imagem: <img src="./Mustang.svg"></img>
     },
     {
       id: 4,
@@ -41,7 +41,7 @@ function App() {
       raca: "Puro Sangue Inglês",
       idade: 6,
       pelagem: "Castanho",
-      imagem: <img src="./public/Puro Sangue Inglês.svg"></img>
+      imagem: <img src="./Puro Sangue Inglês.svg"></img>
     },
     {
       id: 5,
@@ -49,7 +49,7 @@ function App() {
       raca: "Appaloosa",
       idade: 3,
       pelagem: "Sardenta",
-      imagem: <img src="./public/Appaloosa.svg"></img>
+      imagem: <img src="./Appaloosa.svg"></img>
     },
     {
       id: 6,
@@ -57,7 +57,7 @@ function App() {
       raca: "Crioulo",
       idade: 10,
       pelagem: "Zaino",
-      imagem: <img src="./public/Crioulo.svg"></img>
+      imagem: <img src="./Crioulo.svg"></img>
     },
     {
       id: 7,
@@ -65,7 +65,7 @@ function App() {
       raca: "Lusitano",
       idade: 8,
       pelagem: "Branco",
-      imagem: <img src="./public/Lusitano.svg"></img>
+      imagem: <img src="./Lusitano.svg"></img>
     },
     {
       id: 8,
@@ -73,7 +73,7 @@ function App() {
       raca: "Árabe",
       idade: 5,
       pelagem: "Preto",
-      imagem: <img src="./public/emojione--horse-face.svg"></img>
+      imagem: <img src="./emojione--horse-face.svg"></img>
     },
     {
       id: 9,
@@ -81,7 +81,7 @@ function App() {
       raca: "Andaluz",
       idade: 9,
       pelagem: "Cinza",
-      imagem: <img src="./public/Andaluz.svg"></img>
+      imagem: <img src="./Andaluz.svg"></img>
     },
     {
       id: 10,
@@ -89,7 +89,7 @@ function App() {
       raca: "Campolina",
       idade: 4,
       pelagem: "Pampa",
-      imagem: <img src="./public/Campolina.svg"></img>
+      imagem: <img src="./Campolina.svg"></img>
     }
   ])
   

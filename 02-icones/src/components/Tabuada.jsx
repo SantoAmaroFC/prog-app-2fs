@@ -8,19 +8,18 @@ function Tabuada() {
     let calcula = ""
 
     for (let i = 1; i <= 10; i++) {
-      calcula += nome * i + "\n"
+      // calcula += nome * i + "\n"
+      calcula += `${nome} x ${i} = ${nome * i} \n`
 
-      
     }
     alert(calcula)
   }
-    
   return (
 
     <div>
-        <h1>Tabuada</h1>
-         <button  onClick={contas}>tabuada</button>
-         
+        
+         <button  onClick={contas}>tabuada</button>  
+            
     </div>
   )
 }
