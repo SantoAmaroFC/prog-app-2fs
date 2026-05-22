@@ -18,7 +18,10 @@ function App() {
         fone: inputFone
       }
       setContatinhos([novoContatinho ,...contatinhos])
-      console.log(contatinhos)
+      setInputFoto('')
+      setInputNome('')
+      setInputArroba('')
+      setInputFone('')
     }
       function excluir(id){
         setContatinhos(contatinhos.filter((c)=>c.id != id))
